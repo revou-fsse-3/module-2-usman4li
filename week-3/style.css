@@ -455,7 +455,7 @@ strong {
         margin: 0;
         text-shadow: 1px 1px 2px rgb(243, 50, 50), 0 0 1em rgb(243, 50, 50), 0 0 0.2em rgb(243, 50, 50);
     }
-    button[type="submit"] {
+    .find button[type="submit"] {
         color:white;
         background-color: transparent;
         border: 1px solid white;
@@ -599,11 +599,12 @@ fieldset div {
     margin-right:auto
 }
 
-button[type="submit"] {
+.form-member button[type="submit"] {
     color:white;
     background-color: transparent;
     border: 1px solid white;
     border-radius:4px;
+    width: 100%;
     padding:8px 16px;
     font-size:16px;
     font-weight:bold;
