@@ -75,3 +75,35 @@ This documentation will guide you through the process of registering with Netlif
     ![name](/week-4/git_img/board15.PNG)
 
 #### **Buy Custom Domain**
+This guide provides step-by-step instructions on how to configure a custom domain. Before processing with the steps below, make sure you have purchased a custom domain from Niaga Hoster or any other domain register.
+1. Open https://www.niagahoster.co.id/ in your web browser.
+2. Look for the "Domain" feature on the Niagahoster homepage.
+3. Enter the domain name you desire in the domain search box. Example: [almanit](https://almanit.site).
+4. Click the "Check now" button to check the availability of the domain.
+5. If the domain you want is available, select it and click the "Choose" button.
+    ![domain](/week-4/git_img/board19.PNG)
+6. Niagahoster will display additional information about the selected domain, such as price and additional options. In this step, i chose [almanit.site](https://almanit.site) as the domain that i rented. on this step picture [almanit.site](https://almanit.site) doesn't appear because i have already rented it.
+    ![nama domain](/week-4/git_img/board20.PNG)
+7. Set the domain rental period according to your preference.
+8. After you click "Choose" button you will be proceed to the payment process.
+    ![select & payment](/week-4/git_img/board21.PNG)
+    ![select & payment](/week-4/git_img/board22.PNG)
+9. In the payment page, select the payment method you prefer (such as bank transfer, credit card, or e-wallet).
+10. FIll in the required payment information.
+11. Double-check your order and ensure that all details are correct.
+12. Once you're ready, click the or "Checkout Now" button to complete the purchase.
+13. Follow the further instructions from Niagahoster to finalize the payment process.
+
+#### **Add Custom Domain to Netlify**
+
+1. In the Netlify dashboard, select the site for which you want to change the domain.
+    ![set domain](/week-4/git_img/board16.PNG)
+    ![add domain](/week-4/git_img/board17.PNG)
+2. Click the "Domain management" button.
+3. Choose the "Add custom domain" option.
+4. Enter the domain you want to use.
+5. Set up your DNS in DNS configuration. Change record type to "CName", Name to "almanit.site(your name site)", Target to "link deploy active", TTL to "14400", and then "add record / save".
+    ![set domain](/week-4/git_img/board23.PNG)
+6. Copy the server name that  appears on Netlify after configure the DNS record and paste it into Niagahoster.
+
+The process will take a few minutes to complete or in 24 hours maximum.
